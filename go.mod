@@ -1,4 +1,4 @@
-module github.com/fazpass/check-linter
+module github.com/aryadiahmad4689/check-linter
 
 go 1.17
 

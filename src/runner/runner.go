@@ -3,8 +3,8 @@ package runner
 import (
 	"os"
 
-	"github.com/fazpass/check-linter/src/find"
-	"github.com/fazpass/check-linter/src/parser"
+	"github.com/aryadiahmad4689/check-linter/src/find"
+	"github.com/aryadiahmad4689/check-linter/src/parser"
 	_ "github.com/joho/godotenv/autoload"
 )
 

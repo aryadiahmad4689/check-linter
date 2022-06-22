@@ -6,7 +6,7 @@ import (
 	"go/token"
 	"log"
 
-	"github.com/fazpass/check-linter/src/visitor"
+	"github.com/aryadiahmad4689/check-linter/src/visitor"
 )
 
 type Data struct {
