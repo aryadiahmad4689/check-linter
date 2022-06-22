@@ -21,7 +21,11 @@ func Init() *Runner {
 func (r *Runner) Excute() *Antention {
 	var Antention = &Antention{}
 	for _, s := range find.Find(os.Getenv("PATH_TO_LINTER"), ".go") {
-		Antention.Data = append(Antention.Data, parser.Init().Parser(s))
+		oke := parser.Init().Parser(s).Status
+		if ok {
+			Antention.Data = append(Antention.Data, parser.Init().Parser(s).Data)
+
+		}
 	}
 	return Antention
 }
