@@ -1,7 +1,7 @@
 package check_linter
 
 import (
-	"github.com/fazpass/check-linter/src/runner"
+	"github.com/aryadiahmad4689/check-linter/src/runner"
 	_ "github.com/joho/godotenv/autoload"
 )
 
