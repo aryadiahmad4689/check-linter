@@ -5,7 +5,7 @@ import (
 	_ "github.com/joho/godotenv/autoload"
 )
 
-func Parser() runner.Antention {
+func CheckCode() runner.Antention {
 	var data = runner.Init().Excute()
 	return *data
 }
