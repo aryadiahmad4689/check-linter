@@ -28,5 +28,4 @@ func main() {
 		Path: *rootDir,
 	}).Excute()
 
-	// fmt.Println(config.SelectorExpression)
 }

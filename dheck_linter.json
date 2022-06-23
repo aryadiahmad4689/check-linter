@@ -18,7 +18,7 @@
 
     "DecStmt":[
         {
-            "Sel" :""
+            "Sel" :"var"
         }
     ]
 }
