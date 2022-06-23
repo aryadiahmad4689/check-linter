@@ -1,0 +1,24 @@
+{
+    "SelectorExpression":[
+        {
+            "Sel" : "Println",
+            "X" : "fmt"
+        },
+        {
+            "Sel" : "Print",
+            "X" : "fmt"
+        }
+    ],
+
+    "ExprStmt":[
+        {
+            "Sel" :":="
+        }
+    ],
+
+    "DecStmt":[
+        {
+            "Sel" :""
+        }
+    ]
+}

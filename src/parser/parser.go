@@ -6,6 +6,7 @@ import (
 	"go/token"
 	"log"
 
+	"github.com/aryadiahmad4689/check-linter/src/find"
 	"github.com/aryadiahmad4689/check-linter/src/visitor"
 )
 
@@ -26,8 +27,11 @@ func (p *Parser) Parser(path string) Data {
 		log.Fatal(err)
 	}
 
-	visitor := &visitor.Visitor{Fset: fset}
+	conf := find.GetConfig()
+
+	visitor := &visitor.Visitor{Fset: fset, Conf: conf}
 	ast.Walk(visitor, file)
+
 	return Data{
 		Status: len(visitor.Data) > 0,
 		Data:   visitor.Data,
